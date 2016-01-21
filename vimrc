@@ -34,9 +34,10 @@ filetype plugin indent on    " required
 
 " My preferred Settings
 colorscheme default
-"if has('gui_running')
+if has('gui_running')
 "      set guifont=Apple\ Symbols
-" endif
+      set mouse=a
+ endif
 " Set Smart and Auto Indents
 set autoindent
 set smartindent
@@ -52,7 +53,6 @@ set number
 set hls
 set ignorecase
 syntax on
-set mouse=a
 set history=1000
 set undolevels=1000
 
